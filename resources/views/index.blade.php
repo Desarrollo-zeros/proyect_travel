@@ -86,10 +86,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <form id="formSearhB">
         <div class="col-md-5 bann-info1 wow fadeInLeft animated" data-wow-delay=".5s">
             <i class="fa fa-columns"></i>
-            <h3>Viaja Por Todo Colombia</h3>
+            <h3>Viaja Por Todo el Cesar</h3>
         </div>
         <div class="col-md-7 bann-info wow fadeInRight animated" data-wow-delay=".5s">
-            <h2>tiquetes Buses al mejor precio, para toda colombia</h2>
+            <h2>Tiquetes De Buses Al Mejor Precio</h2>
             <div class="ban-top">
                 <div class="bnr-left">
                     <label class="inputLabel">De</label>

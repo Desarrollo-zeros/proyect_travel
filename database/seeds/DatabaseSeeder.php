@@ -50,17 +50,18 @@ class DatabaseSeeder extends Seeder
             DB::table("departamentos")->insert(["id"=>$key,"departamento"=>$value]);
         }
 
-        DB::table("municipios")->insert(["id"=>"1042","municipio"=>"Valledupar","estado"=>"1","idDepartamento"=>20]);
-        DB::table("municipios")->insert(["id"=>"107","municipio"=>"Bogotá","estado"=>"1","idDepartamento"=>11]);
-        DB::table("municipios")->insert(["id"=>"88","municipio"=>"Barranquilla","estado"=>"1","idDepartamento"=>8]);
-        DB::table("municipios")->insert(["id"=>"118","municipio"=>"Bucaramanga","estado"=>"1","idDepartamento"=>68]);
-        DB::table("municipios")->insert(["id"=>"275","municipio"=>"Cúcuta","estado"=>"1","idDepartamento"=>54]);
-        DB::table("municipios")->insert(["id"=>"877","municipio"=>"Santa Marta","estado"=>"1","idDepartamento"=>47]);
-        DB::table("municipios")->insert(["id"=>"114","municipio"=>"Bosconia","estado"=>"1","idDepartamento"=>20]);
-        DB::table("municipios")->insert(["id"=>"547","municipio"=>"Medellín","estado"=>"1","idDepartamento"=>5]);
+        DB::table("municipios")->insert(["id"=>"1","municipio"=>"Valledupar","estado"=>"1","idDepartamento"=>20]);
+        DB::table("municipios")->insert(["id"=>"2","municipio"=>"Codazzi","estado"=>"1","idDepartamento"=>20]);
+        DB::table("municipios")->insert(["id"=>"3","municipio"=>"San Diego","estado"=>"1","idDepartamento"=>20]);
+        DB::table("municipios")->insert(["id"=>"4","municipio"=>"La Paz","estado"=>"1","idDepartamento"=>20]);
+        DB::table("municipios")->insert(["id"=>"5","municipio"=>"Becerril","estado"=>"1","idDepartamento"=>20]);
+        DB::table("municipios")->insert(["id"=>"6","municipio"=>"La Jagua","estado"=>"1","idDepartamento"=>20]);
+
+
+
         DB::table("usuarios")->insert([
             "id"=>1,
-            "username" => "zeros",
+            "username" => "JADER",
             "password" => sha1("toor"),
             "email" => "wowzeros2@gmail.com",
             "rol" => 3
@@ -93,8 +94,8 @@ class DatabaseSeeder extends Seeder
         DB::table("busConductor")->insert([
             "id" => 1,
             "conductor" => 1,
-            "salida" =>1042,
-            "destino" => 88,
+            "salida" =>1,
+            "destino" => 2,
             "fsalida" => "04/11/2019",
             "horaSalida" => "8:00 AM",
             "bus" => 1,
